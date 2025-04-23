@@ -120,13 +120,13 @@ This will:
 
 ```
 rejection-filter/
+├──.gitignore
 ├── imap_delete.py            # Script for deleting rejection emails from Gmail/Outlook
 ├── train_model.py            # Script for training the classification model
 ├── predict.py                # Script for predicting whether an email is rejection or normal
 ├── preprocess.py             # Data preprocessing and feature extraction (text cleaning, etc.)
 ├── emails.csv                # Dataset of emails for training
 ├── requirements.txt          # Python dependencies
-├── email_classifier_pipeline.pkl # Trained machine learning model
 ├── label_encoder.pkl         # Saved label encoder
 └── README.md                 # This file
 ```
