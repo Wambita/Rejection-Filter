@@ -1,0 +1,39 @@
+# Python Bytecode Files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Model files (for large models, avoid storing in Git)
+*.pkl
+*.joblib
+
+# Environment Variables file
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Python caches
+*.pyc
+
+# Test files and coverage data
+*.coverage
+*.pytest_cache/
+nosetests.xml
+coverage.xml
+*.hypothesis/
